@@ -1,0 +1,86 @@
+@import "reset.css";
+
+.wrapper {
+  padding: 50px;
+  height: 100vh;
+}
+
+.box {
+  border: 3px solid black;
+  border-radius: 25px;
+  height: 100%;
+  padding-block: 300px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 1200px;
+}
+
+.content {
+  margin-left: 100px;
+  border-radius: 5px;
+  width: 750px;
+}
+
+.leftbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftbar a {
+  font-size: 20px;
+  margin-block: 10px;
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.leftbar a:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+#dark {
+  font-size: 20px;
+  margin-block: 10px;
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#dark:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+img {
+  border: 1px solid rgb(208, 208, 208);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1755px) {
+  .container {
+    width: auto;
+    padding: 0 30px;
+  }
+
+  .content {
+    margin-left: 20px;
+    margin-top: 13px;
+  }
+
+  .box {
+    padding-block: 225px;
+  }
+}
